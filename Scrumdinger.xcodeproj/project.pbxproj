@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		0D713D0A2A1A7FC3003B826E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D713D092A1A7FC3003B826E /* Theme.swift */; };
+		0D713D0C2A1A8139003B826E /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D713D0B2A1A8139003B826E /* DailyScrum.swift */; };
 		0DBE08A42A1A75CA00E41AE8 /* ScrumdingerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE08A32A1A75CA00E41AE8 /* ScrumdingerApp.swift */; };
 		0DBE08A62A1A75CA00E41AE8 /* MeetingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE08A52A1A75CA00E41AE8 /* MeetingView.swift */; };
 		0DBE08A82A1A75CA00E41AE8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0DBE08A72A1A75CA00E41AE8 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		0D713D092A1A7FC3003B826E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		0D713D0B2A1A8139003B826E /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		0DBE08A02A1A75CA00E41AE8 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBE08A32A1A75CA00E41AE8 /* ScrumdingerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerApp.swift; sourceTree = "<group>"; };
 		0DBE08A52A1A75CA00E41AE8 /* MeetingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingView.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				0D713D092A1A7FC3003B826E /* Theme.swift */,
+				0D713D0B2A1A8139003B826E /* DailyScrum.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D713D0C2A1A8139003B826E /* DailyScrum.swift in Sources */,
 				0D713D0A2A1A7FC3003B826E /* Theme.swift in Sources */,
 				0DBE08A62A1A75CA00E41AE8 /* MeetingView.swift in Sources */,
 				0DBE08A42A1A75CA00E41AE8 /* ScrumdingerApp.swift in Sources */,
