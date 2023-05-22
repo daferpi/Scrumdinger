@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D2662542A1B387C0057FF3C /* TrailingIconLabelStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D2662532A1B387C0057FF3C /* TrailingIconLabelStyle.swift */; };
 		0D713D0A2A1A7FC3003B826E /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D713D092A1A7FC3003B826E /* Theme.swift */; };
 		0D713D0C2A1A8139003B826E /* DailyScrum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D713D0B2A1A8139003B826E /* DailyScrum.swift */; };
 		0D713D0E2A1A8297003B826E /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D713D0D2A1A8297003B826E /* CardView.swift */; };
@@ -37,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D2662532A1B387C0057FF3C /* TrailingIconLabelStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrailingIconLabelStyle.swift; sourceTree = "<group>"; };
 		0D713D092A1A7FC3003B826E /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
 		0D713D0B2A1A8139003B826E /* DailyScrum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyScrum.swift; sourceTree = "<group>"; };
 		0D713D0D2A1A8297003B826E /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 			children = (
 				0D713D092A1A7FC3003B826E /* Theme.swift */,
 				0D713D0B2A1A8139003B826E /* DailyScrum.swift */,
+				0D2662532A1B387C0057FF3C /* TrailingIconLabelStyle.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0D713D0C2A1A8139003B826E /* DailyScrum.swift in Sources */,
+				0D2662542A1B387C0057FF3C /* TrailingIconLabelStyle.swift in Sources */,
 				0D713D0A2A1A7FC3003B826E /* Theme.swift in Sources */,
 				0DBE08A62A1A75CA00E41AE8 /* MeetingView.swift in Sources */,
 				0DBE08A42A1A75CA00E41AE8 /* ScrumdingerApp.swift in Sources */,
