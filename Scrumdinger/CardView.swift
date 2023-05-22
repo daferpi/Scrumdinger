@@ -18,11 +18,15 @@ struct CardView: View {
                 Label("\(scrum.attendees.count)", systemImage: "person.3")
                 Spacer()
                 Label("\(scrum.lengthInMinutes)", systemImage: "clock")
+                    .padding(.trailing, 20)
             }
+            .font(.caption)
         }
+        .padding()
+        .foregroundColor(scrum.theme.accentColor)
     }
 }
-
+// https://developer.apple.com/tutorials/app-dev-training/creating-a-card-view
 struct CardView_Previews: PreviewProvider {
     static var previewScrum = DailyScrum.sampleData[0]
     static var previews: some View {
