@@ -11,7 +11,7 @@ struct ScrumsView: View {
     let scrums: [DailyScrum]
     
     var body: some View {
-        List(scrums, id: \.title) { item in
+        List(scrums) { item in
             CardView(scrum: item)
                 .listRowBackground(item.theme.mainColor)
         }
