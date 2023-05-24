@@ -20,6 +20,7 @@
 		0DBE08B52A1A75CA00E41AE8 /* ScrumdingerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE08B42A1A75CA00E41AE8 /* ScrumdingerTests.swift */; };
 		0DBE08BF2A1A75CB00E41AE8 /* ScrumdingerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE08BE2A1A75CB00E41AE8 /* ScrumdingerUITests.swift */; };
 		0DBE08C12A1A75CB00E41AE8 /* ScrumdingerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DBE08C02A1A75CB00E41AE8 /* ScrumdingerUITestsLaunchTests.swift */; };
+		0DCC63BC2A1DD88600676A6F /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC63BB2A1DD88600676A6F /* DetailEditView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 		0DBE08BA2A1A75CB00E41AE8 /* ScrumdingerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrumdingerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DBE08BE2A1A75CB00E41AE8 /* ScrumdingerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITests.swift; sourceTree = "<group>"; };
 		0DBE08C02A1A75CB00E41AE8 /* ScrumdingerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumdingerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0DCC63BB2A1DD88600676A6F /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				0D713D0D2A1A8297003B826E /* CardView.swift */,
 				0D2662552A1B428A0057FF3C /* ScrumsView.swift */,
 				0DA911102A1C8246008E6908 /* DetailView.swift */,
+				0DCC63BB2A1DD88600676A6F /* DetailEditView.swift */,
 				0DBE08A72A1A75CA00E41AE8 /* Assets.xcassets */,
 				0DBE08A92A1A75CA00E41AE8 /* Preview Content */,
 			);
@@ -285,6 +288,7 @@
 			files = (
 				0D713D0C2A1A8139003B826E /* DailyScrum.swift in Sources */,
 				0DA911112A1C8246008E6908 /* DetailView.swift in Sources */,
+				0DCC63BC2A1DD88600676A6F /* DetailEditView.swift in Sources */,
 				0D2662542A1B387C0057FF3C /* TrailingIconLabelStyle.swift in Sources */,
 				0D713D0A2A1A7FC3003B826E /* Theme.swift in Sources */,
 				0D2662562A1B428A0057FF3C /* ScrumsView.swift in Sources */,
