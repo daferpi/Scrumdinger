@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct ScrumsView: View {
-    let scrums: [DailyScrum]
+    @Binding var scrums: [DailyScrum]
     
     var body: some View {
         NavigationStack {
-            List(scrums) { item in
-                NavigationLink(destination: DetailView(scrum: item)) {
+            List($scrums) { $item in
+                NavigationLink(destination: DetailView(scrum: $item)) {
                     CardView(scrum: item)
                 }
                 .listRowBackground(item.theme.mainColor)
@@ -31,6 +31,6 @@ struct ScrumsView: View {
 
 struct ScrumsView_Previews: PreviewProvider {
     static var previews: some View {
-        ScrumsView(scrums: DailyScrum.sampleData)
+        ScrumsView(scrums: .constant(DailyScrum.sampleData))
     }
 }
