@@ -26,6 +26,7 @@
 		0DCC63BC2A1DD88600676A6F /* DetailEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DCC63BB2A1DD88600676A6F /* DetailEditView.swift */; };
 		0DE2189F2A39A951005A5785 /* ScrumProgressViewStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE2189E2A39A951005A5785 /* ScrumProgressViewStyle.swift */; };
 		0DE218A12A39AAE6005A5785 /* ScrumTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE218A02A39AAE6005A5785 /* ScrumTimer.swift */; };
+		0DE218A32A39D2DC005A5785 /* MeetingFooterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DE218A22A39D2DC005A5785 /* MeetingFooterView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +69,7 @@
 		0DCC63BB2A1DD88600676A6F /* DetailEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailEditView.swift; sourceTree = "<group>"; };
 		0DE2189E2A39A951005A5785 /* ScrumProgressViewStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumProgressViewStyle.swift; sourceTree = "<group>"; };
 		0DE218A02A39AAE6005A5785 /* ScrumTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrumTimer.swift; sourceTree = "<group>"; };
+		0DE218A22A39D2DC005A5785 /* MeetingFooterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingFooterView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,9 +141,10 @@
 				0DCC63BB2A1DD88600676A6F /* DetailEditView.swift */,
 				0D91EBA32A1F233A00DDC1EC /* ThemeView.swift */,
 				0D91EBA52A1F24FD00DDC1EC /* ThemePicker.swift */,
+				0DE2189E2A39A951005A5785 /* ScrumProgressViewStyle.swift */,
+				0DE218A22A39D2DC005A5785 /* MeetingFooterView.swift */,
 				0DBE08A72A1A75CA00E41AE8 /* Assets.xcassets */,
 				0DBE08A92A1A75CA00E41AE8 /* Preview Content */,
-				0DE2189E2A39A951005A5785 /* ScrumProgressViewStyle.swift */,
 			);
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				0D91EBA62A1F24FD00DDC1EC /* ThemePicker.swift in Sources */,
 				0DE2189F2A39A951005A5785 /* ScrumProgressViewStyle.swift in Sources */,
+				0DE218A32A39D2DC005A5785 /* MeetingFooterView.swift in Sources */,
 				0DE218A12A39AAE6005A5785 /* ScrumTimer.swift in Sources */,
 				0D713D0C2A1A8139003B826E /* DailyScrum.swift in Sources */,
 				0DA911112A1C8246008E6908 /* DetailView.swift in Sources */,
